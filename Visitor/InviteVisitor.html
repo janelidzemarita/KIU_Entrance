@@ -103,26 +103,33 @@
       <option value="academic">Academic/აკადემიური</option>
       <option value="residence">Residence/საცხოვრებელი</option>
     </select>
-
+<br>
     <label for="duration">Select Duration of the visit</label>
     <select id="duration" name="duration" required>
       <option value="oneDay">One full day/ერთი სრული დღე</option>
       <option value="mulDays">Multiple days/რამოდენიმე დღე</option>
     </select>
+<br>
 
     <label for="car">Does a visitor have a car</label>
     <select id="car" name="car" required>
       <option value="yes">Yes/დიახ</option>
       <option value="no">No/არა</option>
     </select>
+<br>
 
-    <label for="parkingType">Does a visitor have a car</label>
+    <label for="parkingType" hidden>Select the parking space</label>
     <select id="parkingType" name="parkingType" hidden>
       <option value="a">C (F and M parking spot)</option>
       <option value="b">D (L and M parking spot)</option>
       <option value="c">E (G and M parking spot)</option>
       <option value="d">F (only M parking spot)</option>
       <option value="e">VIP (every parking spot)</option>
+    </select>
+    <br>
+    <label for="calendar" > Please select the date and time </label>
+    <input type="datetime-local" id="calendar">
+
     </select>
 <!--Restrictions for the students while registering a visitor
 The user with a student profile will only be able to register a visitor with
