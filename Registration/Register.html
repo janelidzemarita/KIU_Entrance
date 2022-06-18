@@ -3,7 +3,7 @@
 
 <head>
     <title>Registration</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@
         }
 
         /* Full-width input fields */
-        input[type=text], input[type=password] {
+        input[type=text], input[type=password] , input[type=number], input[type=tel]{
             width: 100%;
             padding: 15px;
             margin: 5px 0 22px 0;
@@ -75,28 +75,31 @@
 
     <div class="container">
         <img src="logo.svg" alt="KiuLogo" class="Kiulogo" style="alignment: center; size: auto">
-        <h1>Registration Form</h1>
+        <h1>კეთილი იყოს თქვენი მობრძანება ქუთაისის საერთაშორისო უნივერსიტეტის კამპუსზე შესვლის ვებსაიტზე!</h1>
+        <h2>Welcome to KIU Entrance website</h2>
+        <p>გთხოვთ შეავსეთ ფრომა რომ შექმნათ ანგარიში.(ლათინურად)</p>
         <p>Please fill in this form to create an account.</p>
         <hr>
 
-        <label for="name"><b>Name</b></label>
+        <label for="name"><b>Name/სახელი</b></label>
         <input type="text" placeholder="Enter Name" name="name" id="name" required>
 
-        <label for="surname"><b>Surname</b></label>
+        <label for="surname"><b>Surname/გვარი</b></label>
         <input type="text" placeholder="Enter Surname" name="surname" id="surname" required>
 
-        <label for="ID_number"><b>ID Number</b></label> <!-- this will be the username since id is unique -->
+        <label for="ID_number"><b>ID Number/პირადი ნომერი</b></label> <!-- this will be the username since id is unique -->
         <input type="number" placeholder="Enter ID number" name="ID_number" id="ID_number" required>
-        <label for="phone_number"><b>Mobile phone number</b></label>
+        <label for="phone_number"><b>Mobile phone number/მობილური ტელეფონის ნომერი</b></label>
         <input type="tel" placeholder="Enter Phone Number" name="phone_number" id="phone_number" required>
+        <laber for="status">Select Status</laber>
+        <select id="status" name="status">Status
+            <option value="student">Student/სტუდენტი</option>
+            <option value="student">Staff/სტაფი?</option></select>
 
-        <input type="button"> Status
-
-<!--        HERE NEEDS WORK-->
-        <label for="psw"><b>Password</b></label>
+        <label for="psw"><b>Password/კოდი</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <label for="psw-repeat"><b>Repeat Password/გაიმეორეთ კოდი</b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
         <hr>
         <hr>
