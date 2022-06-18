@@ -71,18 +71,15 @@
 </head>
 <body>
 
-<form action="/action_page.php"> <!-- Name of the database file here -->
-
+<form method="post" action="register.php"> <!-- Name of the database file here -->
     <div class="container">
-
         <img src="logo.svg" alt="KiuLogo" class="Kiulogo" style="alignment: center; size: auto">
-
         <h1>კეთილი იყოს თქვენი მობრძანება ქუთაისის საერთაშორისო უნივერსიტეტის კამპუსზე შესვლის ვებსაიტზე!</h1>
         <h2>Welcome to KIU Entrance website</h2>
         <p>გთხოვთ შეავსეთ ფრომა რომ შექმნათ ანგარიში.(ლათინურად)</p>
         <p>Please fill in this form to create an account.</p>
         <hr>
-<!--        <?php require 'register.php';?>-->
+
         <label for="name"><b>Name/სახელი</b></label>
         <input type="text" placeholder="Enter Name" name="name" id="name" required>
 
@@ -105,13 +102,13 @@
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
         <hr>
         <hr>
-        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <p>By creating an account you agree to our <a href="/Home_Page/main.html">Terms & Privacy</a>.</p>
 
-        <button type="submit" class="registerbtn" >Register</button>
+        <button type="submit" class="registerbtn" href="/Sign_in/signin.html">Register</button>
     </div>
 
     <div class="container signin">
-        <p>Already have an account? <a href="/Sign_in/main.html">Sign in</a>.</p>
+        <p>Already have an account? <a href="/Sign_in/signin.html">Sign in</a>.</p>
     </div>
 </form>
 

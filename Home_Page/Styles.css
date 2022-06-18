@@ -10,7 +10,13 @@ body {
 li {
     list-style: none;
 }
-
+.reg{
+    position: absolute;
+    color: red;
+    display: flex;
+    display:block;
+    left: 87%;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -19,16 +25,29 @@ li {
     background-color: #ffffff;
     color: #030303;
 }
+.nav-links{
+
+}
 .nav-links a {
     color: #030303;
 }
 
 .name {
-    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
 }
 /* NAVBAR MENU */
 .Menu {
     display: flex;
     gap: 1em;
     font-size: 20px;
+}
+.Kiulogo{
+    top: 8px;
+    left: 16px;
+    height: 100px;
+
 }
