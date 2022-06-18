@@ -72,7 +72,6 @@
 <body>
 
 <form method="post" action="register.php"> <!-- Name of the database file here -->
-
     <div class="container">
         <img src="logo.svg" alt="KiuLogo" class="Kiulogo" style="alignment: center; size: auto">
         <h1>კეთილი იყოს თქვენი მობრძანება ქუთაისის საერთაშორისო უნივერსიტეტის კამპუსზე შესვლის ვებსაიტზე!</h1>
@@ -95,7 +94,7 @@
         <select id="status" name="status">Status
             <option value="student">Student/სტუდენტი</option>
             <option value="student">Staff/სტაფი?</option></select>
-
+        <br>
         <label for="psw"><b>Password/კოდი</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
@@ -105,7 +104,7 @@
         <hr>
         <p>By creating an account you agree to our <a href="/Home_Page/main.html">Terms & Privacy</a>.</p>
 
-        <button type="submit" class="registerbtn" onclick="">Register</button>
+        <button type="submit" class="registerbtn" onclick="create()">Register</button>
     </div>
 
     <div class="container signin">
