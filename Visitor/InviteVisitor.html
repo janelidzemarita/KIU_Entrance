@@ -4,7 +4,8 @@
 <head>
   <title>Visitor Invite</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="inviteVisitor.css"/>
+
 </head>
 <body>
 
@@ -28,14 +29,14 @@
     <input type="number" placeholder="Enter ID number" name="ID_number" id="ID_number" required>
 
     <label for="place">Select Location of the Visiting Site</label>
-    <select id="place" name="place" required onchange="popups()">
+    <select id="place" name="place" onchange="popups()" required>
       <option value="general">General/გენერალური</option>
       <option value="academic">Academic/აკადემიური</option>
       <option value="residence">Residence/საცხოვრებელი</option>
     </select>
 <br>
     <label for="duration">Select Duration of the visit</label>
-    <select style="animation: ease" id="duration" name="duration" required>
+    <select id="duration" name="duration" required>
       <option value="oneDay">One full day/ერთი სრული დღე</option>
       <option value="mulDays">Multiple days/რამოდენიმე დღე</option>
     </select>
@@ -59,6 +60,7 @@
     <br>
     <label for="calendar" > Please select the date and time </label>
     <input type="datetime-local" id="calendar">
+
     </select>
 <!--Restrictions for the students while registering a visitor
 The user with a student profile will only be able to register a visitor with
@@ -68,6 +70,8 @@ the following options:
 ჯავასკრიპტია საჭირო კითხულობდეს პროფილის მქონის სტატუსს და თუ სტუდენტია მაშინ აჩვენებდეს მხოლოდ ზემოთ მონიშნულ options
 
 -->
+
+
     <button type="submit" class="registerbtn">Submit Invite</button>
   </div>
 </form>
