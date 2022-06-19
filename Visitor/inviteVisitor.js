@@ -2,12 +2,12 @@ function popups() {
     let pop = document.getElementById("place");
     if (pop.value === "general")
     {
-        window.alert("green");
+        window.alert("Badge color is Green");
     }else if (pop.value === "academic"){
-        window.alert("blue");
+        window.alert("Badge color is Blue");
     } else if (pop.value === "residence")
     {
-        window.alert("white");
+        window.alert("Badge color is White");
     }
 
 }

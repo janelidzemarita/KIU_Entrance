@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1b3d6e;
+    background-color: black;
 }
 
 * {
@@ -10,11 +10,8 @@ body {
 /* Add padding to containers */
 .container {
     padding: 16px;
-    /* background-image: url('logo.svg'); */
-    background-repeat: no-repeat;
-    transition: 2s;
-    background-color:  #1b3d6e;
-    display: center;
+    background-color:#04AA6D;
+
 }
 
 /* Full-width input fields */
@@ -26,7 +23,14 @@ input[type=text], input[type=password] , input[type=number], input[type=tel]{
     border: none;
     background: #f1f1f1;
 }
-
+select[name="place"][name=duration]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
 input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
@@ -48,10 +52,13 @@ hr {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    background-color: rgb(39, 226, 55);
+    border-radius: 12px;
 }
 
 .registerbtn:hover {
     opacity: 1;
+    background-color:#1b3d6e ;
 }
 
 /* Add a blue text color to links */
@@ -64,17 +71,3 @@ a {
     background-color: #f1f1f1;
     text-align: center;
 }
-.Kiulogo{
-
-    padding: 5px;
-    height: 100%;;background-color: #639ef1;
-}
-.containersignin{
-    background-color:  #1b3d6e;
-}
-.sel{
-    background-color: #1b3d6e;
-    width:200px;
-    height: 30px;
-}
-

@@ -6,17 +6,23 @@
     <title>User Page</title>
 </head>
 <body>
+<?php
+$myfile = fopen("users.php", "r");
 <div>
-    <output for="name" id="name" onload="addEventListener(window.getElementById(id).name)">Name: </output>
-    <br>
-    <output for="surname" id="surname" onload="addEventListener(window.getElementById(id).surname)">Suranme: </output>
-    <br>
-    <output for="ID_number" id="ID_number" onload="addEventListener(window.getElementById(id).ID_number)">ID Number: </output>
-    <br>
-    <output for="phone_number" id="phone_number" onload="addEventListener(window.getElementById(id).phone_number)">Phone Number: </output>
-    <br>
-    <output for="status" id="status" onload="addEventListener()">Status: </output>
-    <br>
+<img src="logo.svg" alt="KiuLogo" class="Kiulogo">
+<output for="name" id="name" onload="addEventListener(window.getElementById(id).name)">Name: </output>
+<br>
+<output for="surname" id="surname" onload="addEventListener(window.getElementById(id).surname)">Suranme: </output>
+<br>
+<output for="ID_number" id="ID_number" onload="addEventListener(window.getElementById(id).ID_number)">ID Number: </output>
+<br>
+<output for="phone_number" id="phone_number" onload="addEventListener(window.getElementById(id).phone_number)">Phone Number: </output>
+<br>
+<output for="status" id="status" onload="addEventListener()">Status: </output>
+<br>
 </div>
+fclose($myfile);
+?>
+
 </body>
 </html>
