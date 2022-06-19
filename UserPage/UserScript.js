@@ -1,0 +1,3 @@
+const deteleItem = function (id){
+
+}
