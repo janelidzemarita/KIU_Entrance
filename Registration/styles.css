@@ -32,12 +32,19 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 
-/* Overwrite default styles of hr */
+/* Overwrite default stylees of hr */
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
+/*select{*/
+/*    appearance: inherit;*/
+/*    display: block;*/
 
+/*}*/
+select:focus{
+    border-color: #12af4c;
+}
 /* Set a style for the submit button */
 .registerbtn {
     background-color: #04AA6D;
@@ -69,13 +76,13 @@ a {
     padding: 5px;
     height: 100%;;background-color: #639ef1;
 }
-.containersignin{
-    background-color:  #1b3d6e;
-}
-.sel{
-    background-color: #1b3d6e;
-    width:200px;
-    height: 30px;
-}
+/*.containersignin{*/
+/*    background-color:  #1b3d6e;*/
+/*}*/
+/*.sel{*/
+/*    background-color: #1b3d6e;*/
+/*    width:200px;*/
+/*    height: 30px;*/
+/*}*/
 
 

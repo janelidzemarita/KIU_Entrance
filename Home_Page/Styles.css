@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Cambria;
+    font-family: Cambria, sans-serif;
 }
 
 li {
@@ -13,8 +13,7 @@ li {
 .reg{
     position: absolute;
     color: red;
-    display: flex;
-    display:block;
+    display: block;
     left: 87%;
 }
 .navbar {

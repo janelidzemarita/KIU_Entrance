@@ -11,16 +11,16 @@
     <img src="logo.svg" alt="KiuLogo" class="Kiulogo" style="alignment: center; size: auto">
     <div >
         <div class="search-container" method="GET">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="searchByID">
-                <button type="submit" style="background-color:#1b3d6e;"> Search By ID <i ></i></button>
+            <form action="/Visitor/visitor.php">
+                <input type="number" placeholder="Search.." name="searchByID" id="searchByID">
+                <button type="submit" style="background-color:#1b3d6e;" onclick="search(id)"> Search By ID <i ></i></button>
             </form>
         </div>
 
-        <div class="search-container" style="position: absolute; left:0%" method="GET">
-            <form action="/action_page.php">
+        <div class="search-container" style="position: absolute; left:0" method="GET">
+            <form action="/Visitor/visitor.php">
                 <input type="text" placeholder="Search.." name="searchByName">
-                <button type="submit"style="background-color:#1b3d6e"> Search By Name <i ></i></button>
+                <button type="submit"style="background-color:#1b3d6e"onclick="search(id)"> Search By Name <i ></i></button>
             </form>
         </div>
     </div>

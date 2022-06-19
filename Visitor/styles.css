@@ -36,7 +36,7 @@ input[type=text]:focus, input[type=password]:focus {
     outline: none;
 }
 
-/* Overwrite default styles of hr */
+/* Overwrite default stylees of hr */
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
@@ -52,7 +52,7 @@ hr {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-    background-color: rgb(39, 226, 55);
+    /*background-color: rgb(39, 226, 55);*/
     border-radius: 12px;
 }
 
